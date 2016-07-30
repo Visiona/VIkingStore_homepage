@@ -52,25 +52,37 @@ body * {
 }
 
 body {
-  font: 200 14px/21px "Open Seans", "Helvetica Neue", Arial, sans-serif;
+  font: 200 14px/21px "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  margin: 0 auto;
+  width: 100%;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 /*
 -------------------------------------------------
 NAVBAR
 ========================
 */
+.logo {
+  font-size: 22px;
+  float: left;
+}
 
 .navbar {
-height: 50px;
-line-height: 50px;
-padding: 0 120px;
-font-size: 22px;
-border-bottom: 2px solid #333;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  border-bottom: 2px solid #333;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
 }
 
 .cart-container {
-  display: inline-block;
   float: right;
   line-height: 50px;
   font-size: 16px;
@@ -81,5 +93,67 @@ border-bottom: 2px solid #333;
   width: 35px;
   margin: 0 5px;
   vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+-------------------------------------------------
+TEASER
+========================
+*/
+.teaser {
+  height: 380px;
+  display: block;
+  margin-top: 52px;
+  background: #333 url("viking_ship.jpg") 0 0 no-repeat;
+  background-size: 100% 380px;
+}
+
+.teaser h1 {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font: bold 62px/54px "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 6px;
+  text-shadow: -1px -2px 18px rgba(246, 178, 107, 1);
+  background: -webkit-linear-gradient(#F6B26B, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*
+-------------------------------------------------
+PRODUCTS AREA
+========================
+*/
+
+.title {
+  font: 200 42px "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  background: #3D3D3F;
+}
+
+.product-title {
+  height: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 40px;
+  color: #666;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #666;
+}
+
+.cart-box {
+  height:250px;
+  width:180px;
+  background: #3D3D3F;
 }
 
