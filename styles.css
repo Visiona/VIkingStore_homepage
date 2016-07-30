@@ -52,6 +52,34 @@ body * {
 }
 
 body {
-  font: 200 ;
+  font: 200 14px/21px "Open Seans", "Helvetica Neue", Arial, sans-serif;
+}
+
+/*
+-------------------------------------------------
+NAVBAR
+========================
+*/
+
+.navbar {
+height: 50px;
+line-height: 50px;
+padding: 0 120px;
+font-size: 22px;
+border-bottom: 2px solid #333;
+}
+
+.cart-container {
+  display: inline-block;
+  float: right;
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.cart-container img {
+  height: 35px;
+  width: 35px;
+  margin: 0 5px;
+  vertical-align: middle;
 }
 
