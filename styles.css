@@ -47,4 +47,11 @@ table {
   border-spacing: 0;
 }
 
+body * {
+  border: 0.2px dashed #333;
+}
+
+body {
+  font: 200 ;
+}
 
