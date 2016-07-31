@@ -308,5 +308,7 @@ footer img {
 .contact h5 {
   vertical-align: top;
   display: inline-block;
+  padding-top: 5px;
+  padding-left: 20px;
 }
 
