@@ -47,9 +47,9 @@ table {
   border-spacing: 0;
 }
 
-body * {
+/*body * {
   border: 0.2px dashed #333;
-}
+}*/
 
 body {
   font: 200 14px/21px "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -180,14 +180,16 @@ BOX WITH PRODUCT
 }
 .img-box {
   background: #fff;
-  width: 295px;
+  margin-left: 5px;
+  width: 290px;
   height: 200px;
   border: 5px solid double #3D3D3F;
 }
 
 .img-box img {
   height: 200px;
-  max-width: 290px;
+  max-width: 250px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -216,7 +218,7 @@ a .btn-box {
   font-weight: bold;
   border: 3px solid #000;
   text-align: center;
-  margin: -15px auto;
+  margin: 10px auto;
   line-height: 30px;
 }
 
@@ -287,7 +289,7 @@ footer h3 {
   color: #F6B26B;
   font-size: 20px;
   margin-bottom: 8px;
-  margin-top: 15px;
+  padding-top: 10px;
   text-align: center;
 }
 
