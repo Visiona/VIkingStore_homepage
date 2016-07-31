@@ -151,9 +151,76 @@ PRODUCTS AREA
   border-bottom: 2px solid #666;
 }
 
+/*
+-------------------------------------------------
+BOX WITH PRODUCT
+========================
+*/
+
 .cart-box {
-  height:250px;
-  width:180px;
+  height: 300px;
+  width: 300px;
   background: #3D3D3F;
+  float: left;
+  margin: 20px 7px 10px 0;
 }
+
+.title-box {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 45px;
+}
+.img-box {
+  background: #fff;
+  width: 295px;
+  height: 200px;
+  border: 5px solid double #3D3D3F;
+  position: relative;
+}
+
+.img-box img {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a .btn-box {
+  height: 30px;
+  width: 140px;
+  background: #F6B26B;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid #000;
+  text-align: center;
+  margin: -15px auto;
+  line-height: 30px;
+}
+
+.tag-box {
+  height: 30px;
+  width: 70px;
+  background: #fff;
+  color: #666;
+  font-size: 18px;
+  border: 3px solid #000;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*
+-------------------------------------------------
+FOOTER
+========================
+*/
+
+
+
+
 
