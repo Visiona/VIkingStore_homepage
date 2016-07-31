@@ -100,6 +100,7 @@ a {
   color: inherit;
 }
 
+
 /*
 -------------------------------------------------
 TEASER
@@ -182,11 +183,11 @@ BOX WITH PRODUCT
   width: 295px;
   height: 200px;
   border: 5px solid double #3D3D3F;
-  position: relative;
 }
 
 .img-box img {
   height: 200px;
+  max-width: 290px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -206,6 +207,7 @@ a .btn-box {
 }
 
 .tag-box {
+  display: relative;
   height: 30px;
   width: 70px;
   background: #fff;
@@ -214,9 +216,8 @@ a .btn-box {
   border: 3px solid #000;
   text-align: center;
   line-height: 30px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin-top: -203px;
+  margin-left: 225px;
 }
 
 /*
@@ -238,10 +239,11 @@ PAGINATION
 }
 
 .pagination {
-  height: 30px;
+  height: 80px;
   clear: both;
   text-align: center;
-  font: 300 20px "Open Sans;
+  letter-spacing: 5px;
+  font: 300 23px "Open Sans";
 }
 
 .pagination ul {
@@ -251,6 +253,15 @@ PAGINATION
 .pagination li {
   display: inline;
   text-decoration: underline;
+  line-height: 80px;
+}
+
+.pagination li a {
+  color: #37F;
+}
+
+a:inactive {
+
 }
 
 
@@ -273,8 +284,9 @@ footer {
 footer h3 {
   color: #F6B26B;
   font-size: 20px;
-  font-weight: bold;
   margin-bottom: 8px;
+  margin-top: 15px;
+  text-align: center;
 }
 
 footer img {
@@ -283,9 +295,13 @@ footer img {
 
 .contact {
   display: block;
-  width: 230px;
-  margin-left: 400px;
   text-align: left;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.contact h5 {
   vertical-align: top;
+  display: inline-block;
 }
 
