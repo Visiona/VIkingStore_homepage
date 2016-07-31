@@ -156,13 +156,18 @@ PRODUCTS AREA
 BOX WITH PRODUCT
 ========================
 */
+.products {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .cart-box {
   height: 300px;
   width: 300px;
   background: #3D3D3F;
   float: left;
-  margin: 20px 7px 10px 0;
+  margin: 20px 8px 10px 8px;
 }
 
 .title-box {
@@ -216,11 +221,71 @@ a .btn-box {
 
 /*
 -------------------------------------------------
+PAGINATION
+========================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.pagination {
+  height: 30px;
+  clear: both;
+  text-align: center;
+  font: 300 20px "Open Sans;
+}
+
+.pagination ul {
+  display: inline-block;
+}
+
+.pagination li {
+  display: inline;
+  text-decoration: underline;
+}
+
+
+/*
+-------------------------------------------------
 FOOTER
 ========================
 */
 
 
+footer {
+  font: 300 15px "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  height: 130px;
+  text-align: center;
+  color: #fff;
+  background: #3D3D3F;
 
+}
 
+footer h3 {
+  color: #F6B26B;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+footer img {
+  width: 27px;
+}
+
+.contact {
+  display: block;
+  width: 230px;
+  margin-left: 400px;
+  text-align: left;
+  vertical-align: top;
+}
 
