@@ -80,6 +80,7 @@ NAVBAR
   background: #fff;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 .cart-container {
@@ -195,7 +196,6 @@ BOX WITH PRODUCT
 }
 
 .tag-box {
-  position: relative;
   height: 30px;
   width: 70px;
   background: #fff;
@@ -206,6 +206,7 @@ BOX WITH PRODUCT
   line-height: 30px;
   margin-top: -207px;
   margin-left: 225px;
+  position: relative;
 }
 
 
